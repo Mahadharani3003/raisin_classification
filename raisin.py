@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the trained model
-with open("raisin_data.pkl", "rb") as file:
+with open("raisin_data1.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("🍇 Raisin Classification")
